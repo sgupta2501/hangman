@@ -1,0 +1,31 @@
+Filename: hangman.py
+Game: Hangman
+Topic: Sports
+Author: Samarth Gupta
+Functions defined: hangman(), draw()
+__________________________________________________________________________________________________
+To execute the program:
+    Just import the file hangman using the command (in jupyter notebook)
+            import hangman
+__________________________________________________________________________________________________            
+Cases considered:
+----------------
+
+1. Difficulty levels: Beginner, Intermediate (default), Advanced
+        a. Difference is in the word selection: on the basis of length, rarity, total number of options in the word list
+        b. Total number of guesses allowed
+ 2. Pictorial representation of hangman
+ 3. Error cases:
+     a. If non-numeric difficulty level entered, it is set by program to beginner
+     b. If difficulty level entered not in expected range, it is set by program to intermediate
+     c. Program checks and asks the user to enter again
+         i. If multiple characters are entered during guess of the word
+         ii. If non-alphabet is enetered
+         iii. If the character has alreday been tried
+ 4. Displays all the previous tried characters 
+ 5. Maximum number of trails has an upper bound
+ 6. Maximum number of failed attempts has an upper bound
+ 7. The program is not case sensitive
+ 8. Solution is displayed in case of failure to better the knowledge of the user
+ ________________________________________________________________________________________________________
+
